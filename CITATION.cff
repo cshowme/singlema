@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Medata SingleMA"
+version: "1.0"
+date-released: 2026-11-18
+type: software
+authors:
+  - family-names: "Chen"
+    given-names: "Hsiu-Min"
+    affiliation: "Medata Statistical Consulting Co., Ltd."
+license: GPL-3.0-only
+repository-code: "https://github.com/cshowme/singlema"
+url: "https://singlema.medatatw.com"
+abstract: >-
+  Medata SingleMA is a free web application for single-arm
+  meta-analysis of proportions, means, and incidence rates
+  (events per person-time). Analyses are performed with the R
+  package meta. The application runs in the user's web browser
+  through webR and Shinylive.
+keywords:
+  - single-arm meta-analysis
+  - meta-analysis of proportions
+  - meta-analysis of means
+  - incidence rate
+  - person-time
+  - R
+  - meta
+  - webR
+  - Shinylive
