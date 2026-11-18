@@ -9,6 +9,7 @@ authors:
     given-names: "Hsiu-Min"
     affiliation: "Medata Statistical Consulting Co., Ltd."
 license: GPL-3.0-only
+doi: 10.5281/zenodo.24334917
 repository-code: "https://github.com/cshowme/singlema"
 url: "https://singlema.medatatw.com"
 abstract: >-
