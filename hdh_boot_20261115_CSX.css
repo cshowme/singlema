@@ -1,0 +1,8 @@
+#hdh-boot { z-index: 1000; font-family: var(--hdh-font); color: var(--hdh-ink); line-height: 1.7; }
+#hdh-boot[hidden] { display: none; }
+#hdh-boot .hdh-brand__sub, #hdh-boot .hdh-tagline { display: block; margin: 0; }
+#hdh-boot-stage { font-weight: 700; }
+/* 進度無法取得真實百分比，改為不定長度動畫 */
+#hdh-boot .hdh-progress__bar { width: 35%; animation: hdh-indet 1.6s ease-in-out infinite; }
+@keyframes hdh-indet { from { margin-left: -35%; } to { margin-left: 100%; } }
+@media (prefers-reduced-motion: reduce) { #hdh-boot .hdh-progress__bar { animation: none; width: 45%; } }
